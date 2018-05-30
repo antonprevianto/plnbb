@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "antonprevianto",
+    "baseName": "plnbb",
+    "packageName": "io.github.jhipster.application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "session",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.14.4",
+    "packageFolder": "io/github/jhipster/application",
+    "rememberMeKey": "bb37b95f26fbc863c64b44f7a050627bf3d8aa22",
+    "jhiPrefix": "jhi"
+  }
+}

@@ -1,0 +1,9 @@
+version: '2'
+services:
+    plnbb-elasticsearch:
+        image: elasticsearch:2.4.6
+        # volumes:
+        #     - ~/volumes/jhipster/plnbb/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300
